@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Just Java</string>
+    <!--Header text for list of toppings-->
+    <string name="toppings">Toppings</string>
+    <!--Thank you message for the order summary-->
+    <string name="thank_you">Thank You</string>
+    <!--Price message for the order summary-->
+    <string name="price">Price</string>
+    <!--Header text for increment and decrement section-->
+    <string name="quantity">Quantity</string>
+    <!--Text for Order Button -->
+    <string name="order">Order (₦)</string>
+    <!--Text for plus (increment) button -->
+    <string name="plus">+</string>
+    <!--Text for default quantity -->
+    <string name="zero">0</string>
+    <!--Text for minus (decrement) buttion -->
+    <string name="minus">-</string>
+    <!--Text for whipped cream checkbox -->
+    <string name="whipped_cream">Whipped Cream</string>
+    <!--Text for Chocolate Checkedbox -->
+    <string name="chocolate">Chocolate</string>
+    <!--Text for Chocolate Checkedbox -->
+    <string name="name_hint">Name</string>
+</resources>
