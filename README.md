@@ -18,8 +18,7 @@
 ###### 1. The interface was tested in Portrait and Landscape modes. The application showed consistency on a real device with each orientation mode maintaning the visual information with no loss of view element
 ###### 2. The accuracy of the answers were tested. Leading spaces and trailing spaces were added to _ediText_ type and the java code processed the i put properly. Also, test was carried out to check against displaying or running any method if no option was selected for all questions and on individual questions.
 #### 5. Download and Support
-###### You can download this application from the link here [google Drive Link](https://www.google.com)
+###### You can download this application from the link here [Google Drive Link](https://drive.google.com/open?id=17eTsbv0ty-jGAKXh5Tg3R4RUj5RLK86o)
 ###### Feel free to contact me for questions, enquiries, concerns, corrections and suggestions. My handle on slack is *@Victor Etim*.
 ###### My mail is victoretim961@gmail.com.
 ###### My Mobile number is +2348163478000
-
