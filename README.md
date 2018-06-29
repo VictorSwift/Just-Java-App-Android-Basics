@@ -5,10 +5,10 @@
 ###### It constitutes the final challenge (#7DaysofCodeChallenge) of the Google Africa Scholarship Challenge for scholars on the Android Basics Track. I am a scholar on the Android Basics Track and the experience of taking on a project of this magnitude (however basic it might seem) is second to none.
 # Design
 #### 1. Styling
-###### The application layout consist of a single xml (_activity_main.xml_). It however incorporates nested view groups as shown in the _activity_main.xml_. The scrollable nature of the application is achieved using a ScrollView as the parent of every possible view available within the xml layout. Consistency was maintained in the margins for each View element. There are two ImageViews in total all sitting in the _drawables_ folder with file formats of .png
-###### The strings.xml file contains the strings for all 8 questions. The naming convention uses an underscore for separating words
-###### The Application theme along with a custome fontSize and fontFamily is defined in the _styles.xml_ and duly referenced in the main layout
-###### A Single button exist for submittion is placed down the bottom at the middle inside a RelativeLayout for a better aesthetic effect
+###### The application layout consist of a single xml (_activity_main.xml_). It however incorporates nested view groups as shown in the _activity_main.xml_. The scrollable nature of the application is achieved using a ScrollView as the parent of every possible view available within the xml layout. Consistency was maintained in the margins for each View element. Also, it is worthy of note that Text sizes are defined in sp while Lengths are defined in dp. There are two ImageViews in total all sitting in the _drawables_ folder with file formats of _.png_
+###### The _strings.xml_ file contains the strings for all 8 questions. The naming convention uses an underscore for separating words
+###### The Application theme along with a custome fontSize and fontFamily is defined in the _styles.xml_ and duly referenced in the main layout. 
+###### A Single button exist for submittion is placed down the bottom at the middle inside a RelativeLayout for a better aesthetic effect.
 #### 2. Program Logic and Workflow
 ###### The _MainActivity.java_ file contains the logic that adds functionality to the layout.
 ###### It contains the 3 Private Methods and 1 Public method. The methods are describe as thus
