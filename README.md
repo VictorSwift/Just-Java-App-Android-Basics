@@ -1,6 +1,6 @@
 #Overview
-######This is an android-based educational quiz application, specifically for providing insights in the area of Natural Disasters.
-######There are 8 Questions in total. The Questions incorporates Text Inputs (EditText), Checkboxes, RadioButoons, and ImageViews.
+######This is an android-based educational quiz application, specifically for providing insights in the area of Natural ######Disasters.
+######There are 8 Questions in total. The Questions incorporates Text Inputs (EditText), Checkboxes, RadioButoons, and ######ImageViews.
 ######This Project was developed using java and xml with Android Studio as the Integrated Development Environment.
 ######It constitutes the final challenge (#7DaysofCodeChallenge) of the Google Africa Scholarship Challenge for scholars on the Android ######Basics Track. I am a scholar on the Android Basics Track and the experience of taking on a project of this magnitude (however basic it might ######seem) is second to none.
 #Design
