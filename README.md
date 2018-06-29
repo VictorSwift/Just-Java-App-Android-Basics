@@ -7,9 +7,9 @@
 #### 2. Program Logic and Workflow
 ###### The _MainActivity.java_ file contains the logic that adds functionality to the layout. It contains the 3 Private Methods and 1 Public method. The methods are describe as thus
 ###### 1. *computeScore()* : This a public method called when the button on the xml is clicked. It Computes the total points earned from the questions. It uses The _trim()_ method to remove white trailing and leading spaces to help curb issues with autocorect features adding the aforementioned spaces. Objects are created for each input View element available on the xml layout to correctly get the values or states of the selected input element. Also, checks are carried out to ensure that a value is selected or checked or entered via the Mobile device's keyboard. A _Toast_ is used to display the result of the quiz.
-###### 2. *editTextType()* : This is a private method still within the _MainActivity.java_ to award points to questions of type _EditText_. It returns _point_ with a return type of _int_.
-###### 3. *checkBoxType()* : This is a private method still within the _MainActivity.java_ to award points to questions of type _CheckBox_ . It returns _point_ with a return type of _int_.
-###### 4. *radioButtonType()* : This is a private method still within the _MainActivity.java_ to award points to questions of type _RadioButton_. It returns _point_ with a return type of _int_.
+###### 2. *editTextType()* : This is a private method still within the _MainActivity.java_ to award points to questions of type _EditText_. It takes two arguments which are the question number (type _int_) and the user answer (type _string_). It returns _point_ with a return type of _int_.
+###### 3. *checkBoxType()* : This is a private method still within the _MainActivity.java_ to award points to questions of type _CheckBox_. It takes 5 arguments which are the question number (type _int_), and the 4 user selections (type _boolean_). It returns _point_ with a return type of _int_.
+###### 4. *radioButtonType()* : This is a private method still within the _MainActivity.java_ to award points to questions of type _RadioButton_. It takes 2 arguments which are the question number (type _int_), and the user selection (type _boolean_). It returns _point_ with a return type of _int_.
 #### 3. Program Challenges
 ###### 1. Catch and erase white trailing spaces for user input of type _editText_. I solved this problem using the _trim()_ method on a view object.
 ###### 2. Reset score after each toast message displaying score. I solved this by equating the variable _point_ to zero after the _Toast_
@@ -21,5 +21,3 @@
 ###### Feel free to contact me for questions, enquiries, concerns, corrections and suggestions. My handle on slack is *@Victor Etim*.
 ###### My mail is victoretim961@gmail.com.
 ###### My Mobile number is +2348163478000
-
-
